@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2DB06AAE2CCA58E500F216B8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2DB06AAD2CCA58E500F216B8 /* FirebaseAnalytics */; };
+		2DB06AB12CCAA96A00F216B8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2DB06AB02CCAA96A00F216B8 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB06AAE2CCA58E500F216B8 /* FirebaseAnalytics in Frameworks */,
+				2DB06AB12CCAA96A00F216B8 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB06A9B2CCA550D00F216B8 /* FirebaseTutorial */,
+				2DB06AAF2CCAA96A00F216B8 /* Frameworks */,
 				2DB06A9A2CCA550D00F216B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +51,13 @@
 				2DB06A992CCA550D00F216B8 /* FirebaseTutorial.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB06AAF2CCAA96A00F216B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +81,7 @@
 			name = FirebaseTutorial;
 			packageProductDependencies = (
 				2DB06AAD2CCA58E500F216B8 /* FirebaseAnalytics */,
+				2DB06AB02CCAA96A00F216B8 /* FirebaseAuth */,
 			);
 			productName = FirebaseTutorial;
 			productReference = 2DB06A992CCA550D00F216B8 /* FirebaseTutorial.app */;
@@ -350,6 +361,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2DB06AAC2CCA58E500F216B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		2DB06AB02CCAA96A00F216B8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DB06AAC2CCA58E500F216B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
